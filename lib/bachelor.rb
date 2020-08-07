@@ -1,6 +1,18 @@
 require 'json'
 require 'pry'
 
+#def get_first_name_of_season_winner(data, season)
+#  data.each do |term, contestents|
+#    if term == season
+#      contestents.each do |info|
+#        if info["status"] == "Winner"
+#          return info["name"].split(" ")[0]
+#        end 
+#      end 
+#    end 
+#  end
+#end 
+
 def get_first_name_of_season_winner(data, season)
   data.each do |term, contestents|
     if term == season
